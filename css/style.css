@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css?family=Cinzel&display=swap');
+
+body {
+    margin: 0 auto;
+    width: 100%;
+    background-color: white;
+    background-image: url("../img/cocoabg.jpg");
+    font-family: 'Cinzel', serif;
+}
+
+.nav-bar {
+    height: 100px;
+    width: 100%;
+    top: 0;
+    position: fixed;
+    background-color: white;
+    color: black;
+    font-family: 'Cinzel', serif;
+    z-index: 1;
+}
+
+.nav-list {
+    float: right;
+    padding-top: 25px;
+    padding-right: 25px;
+}
+
+.list-item {
+    height: 20px;
+    width: 75px;
+    font-family: 'Cinzel', serif;
+    list-style-type: none;
+    text-align: center;
+    display: inline-block;
+    margin-right: 25px;
+    padding-top: 3px;
+}
+a:link {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:visited {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    color: goldenrod;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+a:active {
+    color: goldenrod;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+h1 {
+    margin-top: 300px;
+    text-align: center;
+    display: block;
+    font-size: 5em;
+    font-weight: bold;
+    text-shadow: 2px 2px goldenrod;
+}
+
+main {
+    width: 100%;
+}
+
+.main-text {
+    background-color: black;
+    color: white;
+    height: 300px;
+    width: 600px;
+    margin-top: 250px;
+    margin-bottom: 250px;
+    padding: 25px;
+    text-align: center;
+    margin-left: 400px;
+    opacity: .5;
+}
+
+footer {
+    height: 50px;
+    width: 100%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: goldenrod;
+    text-align: center;
+    color: black;
+}
+
+.social {
+    height: 45px;
+    width: 100%;
+    text-align: center;
+    font-size: small;
+}
+
+.fab, .far {
+    font-size: 1em;
+}
